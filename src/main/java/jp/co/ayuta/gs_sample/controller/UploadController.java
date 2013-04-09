@@ -65,6 +65,15 @@ public class UploadController extends Controller {
 		String thumbnailUrl = is.getServingUrl(ServingUrlOptions.Builder
 				.withBlobKey(blobKey));
 
+		// 画像サイズ指定
+		// String thumbnailUrl = is.getServingUrl(ServingUrlOptions.Builder
+		// .withBlobKey(blobKey).imageSize(148));
+
+		// GCSファイル名指定
+		// String thumbnailUrl = is.getServingUrl(ServingUrlOptions.Builder
+		// .withGoogleStorageFileName("/gs/ayuta-dev-default/"
+		// + key.getId()));
+
 		ImageFile imageFile = new ImageFile();
 		imageFile.setKey(key);
 		imageFile.setTitle(title);
