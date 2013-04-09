@@ -5,7 +5,7 @@
 /www-test
 /war/WEB-INF/lib
 /war/WEB-INF/classes
-/war/WEB-INF/appengine-generated/*
+/war/WEB-INF/appengine-generated
 /.project
 /.classpath
 /.factorypath
