@@ -1,0 +1,12 @@
+/.apt_generated
+/eclipse.lib
+/target
+/build
+/www-test
+/war/WEB-INF/lib
+/war/WEB-INF/classes
+/.project
+/.classpath
+/.factorypath
+/.settings/com.google.*
+.DS_Store
